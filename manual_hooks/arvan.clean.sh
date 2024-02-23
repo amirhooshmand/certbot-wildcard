@@ -10,8 +10,8 @@ fi
 
 # Remove the challenge TXT record from the zone
 if [ -n "${RECORD_IDS}" ]; then
-    for RECORD_ID in $RECORD_IDS
-    do curl -s -X DELETE "https://napi.arvancloud.ir/cdn/4.0/domains/$CERTBOT_DOMAIN/dns-records/$RECORD_ID" \
+    for RECORD_ID in $RECORD_IDS; do
+        curl -s -X DELETE "https://napi.arvancloud.ir/cdn/4.0/domains/$CERTBOT_DOMAIN/dns-records/$RECORD_ID" \
             -H "Authorization: $API_KEY" \
             -H "Content-Type: application/json"
     done
