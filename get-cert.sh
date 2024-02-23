@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "This script will help you to obtain a free SSL certificate from Let's Encrypt and apply it to Nginx."
+echo "This script will help you to obtain a free SSL certificate from Let's Encrypt."
 echo "This script is tested on Ubuntu 18.04 and 20.04."
 echo "If you are using a different OS, you may need to modify the script."
 read -p "Press Enter to continue or Ctrl+C to exit." tmp
