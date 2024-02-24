@@ -1,0 +1,5 @@
+CONTACT="contact@example.com"
+DOMAIN="example.com" # this must be domain only, not "www.example.com or *.example.com"
+CLOUD="cf" # cf or arvan
+API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
+ZONE_ID="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
